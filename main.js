@@ -2,67 +2,53 @@
 const sideBarEl = document.getElementById("sidebar");
 const articleEl = document.createElement("div");
 articleEl.classList.add("article");
-sideBarEl.appendChild(articleEl);//append the div to the sidebar
-//
+sideBarEl.appendChild(articleEl);
+
+// Create and set the h2 element's text content (using textContent seems to be a better and secured way to do it)
 const h2El = document.createElement("h2");
-h2El.classList.add('h2clase')
+h2El.classList.add("h2clase");
+h2El.textContent = "This is the article header";
+h2El.style.textAlign = 'center';
+h2El.style.whiteSpace = "nowrap";
 articleEl.appendChild(h2El);
 
-//setting paragraph
-const paraGra = document.createElement('p')
+// Create and set the paragraph's text content
+const paraGra = document.createElement("p");
+paraGra.textContent =
+    "This is the article content: Veritatis eaque ullam, non totam ipsum nihil voluptate incidunt reiciendis accusantium architecto culpa eius doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, eos. Veritatis eaque ullam, non totam ipsum nihil voluptate incidunt reiciendis accusantium architecto culpa eius doloribus. Error quasi vero illo ullam? Lorem ipsum dolor sit amet consectetur adipisicing elit. Non, eos. Veritatis eaque ullam, non totam ipsum nihil voluptate incidunt reiciendis accusantium architecto culpa eius doloribus. Lorem ipsum dolor sit amet consectetur adipisicing elit.Non, eos.Veritatis eaque ullam, non totam ipsum nihil voluptate incidunt reiciendis accusantium architecto culpa eius doloribus.n\
+Lorem ipsum dolor sit amet consectetur adipisicing elit.Non, eos.Veritatis eaque ullam, non totam ipsum nihil voluptate incidunt reiciendis accusantium architecto culpa eius doloribus. n\
+ffsfggsgfsgffgsfggfdfs";
 articleEl.appendChild(paraGra);
-
-//setting lists
-const uL = document.createElement('ul');
+/*
+// Create an unordered list and add list items
+const uL = document.createElement("ul");
+uL.classList.add("unordered");
+uL.style.display = "block"
 articleEl.appendChild(uL);
-const lI = document.createElement('li');
-uL.appendChild(lI);
-// Create a regular expression to remove the HTML tags
-const tagRegex = /<[^>]*>/g;
+//li items
+const listItem1 = document.createElement("li");
+listItem1.textContent = "problem";
+uL.appendChild(listItem1);
 
-// Remove the HTML tags from the string
-const sanitizedContent = `
-<ul>
-<li>problem</li>
-<li>solutions</li>
-</ul>
-`.replace(tagRegex, '');
-
-// Set the textContent property to the sanitized content
-uL.textContent = sanitizedContent;
+const listItem2 = document.createElement("li");
+listItem2.textContent = "solutions";
+uL.appendChild(listItem2);*/
 
 
-// Add some HTML content & style to the article element
+// style the article element
 articleEl.style.color = "red";
 articleEl.style.background = "white";
-paraGra.style.color = "rgb(100, 23, 312)";
 articleEl.style.border = "15px yellow solid";
+paraGra.style.color = "rgb(100, 23, 312)";
 
-
-h2El.innerHTML = `
-<h2>This is the article header</h2>`;
-//
-paraGra.innerHTML = `
- <p>- This is the article content </p>
-<p>- Veritatis eaque ullam, 
-non totam ipsum nihil voluptate incidunt reiciendis accusantium 
-architecto culpa eius doloribus. </p>
-<p>- Lorem ipsum dolor sit amet consectetur adipisicing elit.
-Non, eos. Veritatis eaque ullam, 
-non totam ipsum nihil voluptate incidunt reiciendis accusantium 
-architecto culpa eius doloribus. 
-Error quasi vero illo ullam?</p>`;
-
-
-//Creating a list of items
-uL.textContent = `
-<ul>
-<li>problem</li>
-<li>solutions</li>
-</ul>
-`;
+//ineracting with the containers' classes
 
 
 
-// document.appendChild(''),
-// document.createTextNode("******")
+
+
+
+
+
+
+
