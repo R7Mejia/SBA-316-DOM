@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+    
+}
+body{
+    background-color: rgb(46, 47, 47);
+}
+h1 {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #0fc50f;
+}
+#container{
+    background-color: black;
+}
+#navcontainer {
+    background-color: rgb(109, 234, 192);
+    
+}
+ul, li, a{
+    display: flex;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+    color: brown;
+    flex-direction: row;
+    justify-content: space-between;
+}
