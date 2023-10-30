@@ -120,9 +120,16 @@ function onSubmit(e) {
     }
 }
     
-    //
-    window.addEventListener("keydown", (event) => {
-        if (event.code === "KeyR") {
-            // 
-        }
-    })
+//Another EventListener
+function mOver(obj) {
+        obj.innerHTML = "SERIOUSLY, ARE YOU REAL?"
+}
+function mOut(obj) {
+        obj.innerHTML = "NO, IT'S JUST HALLOWEEN 🎃🎃🎃";
+    }
+
+    // window.addEventListener("keydown", (event) => {
+    //     if (event.code === "KeyR") {
+    //         // 
+    //     }
+    // })

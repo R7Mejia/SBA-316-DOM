@@ -126,11 +126,13 @@ margin: 0;
   background-color: #0b0b0b;
   color: antiquewhite;
   margin: 50px 0px;
+  height: 300px;
 }
 
-#footer h1.h1Footer {
+.h1 {
   color: rgb(239, 11, 11);
   text-align: center; 
+ 
 }
 
 .contactUs {
@@ -176,7 +178,7 @@ margin: 0;
 
 #my-form{
   position: relative;
-  bottom: 180px;
+  bottom: 10px;
   left: 0;
   width: 100%;
 }
@@ -217,6 +219,30 @@ label {
   color: #fff;
   padding: 5px;
   margin: 5px;
+}
+
+#footer {
+  display: flex; 
+  justify-content: space-between; 
+  align-items: flex-start; 
+}
+#questAnswer {
+ color: gold;
+
+}
+
+h2 {
+  margin: 0; 
+}
+
+.box {
+  background-color: #7b026d;
+  color: rgb(245, 240, 245);
+  height: 30px;
+  width: 200px;
+  font-size: 20px;
+  padding: 30px;
+  margin: 0; 
 }
 
 
