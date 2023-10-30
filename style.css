@@ -1,77 +1,83 @@
 * {
- 
-  box-sizing: border-box;
+
+    box-sizing: border-box;
 }
 
 body {
   background-color: #00f9f9;
+  
 }
 
 h1 {
-  text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  font-size: x-large;
-  color: #0fc50f;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-large;
+    color: #0fc50f;
 }
 
 #container {
-  background-color: black;
+    background-color: black;
 }
 
 #navcontainer {
-  background-color: rgb(109, 234, 192);
+    background-color: rgb(109, 234, 192);
 }
 
-ul, li
-{
+ul,
+li {
     margin: 7px 0 1px;
     padding: 0;
-  display: flex;
-  text-decoration: none;
-  font-family: 'Courier New', Courier, monospace;
-  font-style: oblique;
-  font-weight: bold;
-  color: brown;
-  justify-content: space-evenly;
-  
+    display: flex;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: oblique;
+    font-weight: bold;
+    color: brown;
+    justify-content: space-evenly;
+
 }
-a{
+
+a {
     text-decoration: none;
 }
 
 #sidebar {
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
 }
 
-.article{
-  width: 50%;
-  order: 1;
-  margin-bottom: 100px;
-  margin-top: 5px;
-  background-color: transparent;
-  
+.article {
+    width: 50%;
+    order: 1;
+    margin-bottom: 100px;
+    margin-top: 5px;
+    background-color: transparent;
+
 }
-.h2clase{
+
+.h2clase {
     text-align: center;
-    
+
 }
+
 img {
-background-color: transparent;
-  width: 50%;
-  height: 50%;
-  order: 2;
-  border: 3px gray solid;
-  margin-bottom: 100px;
-  margin-top: 5px;
+    background-color: transparent;
+    width: 50%;
+    height: 50%;
+    order: 2;
+    border: 3px gray solid;
+    margin-bottom: 100px;
+    margin-top: 5px;
 }
-.container-one{
+
+.container-one {
     width: 50%;
     height: 50%;
 }
-.anchorTag href{
+
+.anchorTag href {
     background-color: aliceblue;
     display: flex;
     text-align: center;
@@ -79,95 +85,102 @@ background-color: transparent;
 }
 
 .imagen {
-width: 200px;
-  height: 200px; 
-  margin: 0 30px;
-  box-shadow: 5px 7px 2px rgb(142, 141, 141);
+    width: 200px;
+    height: 200px;
+    margin: 0 30px;
+    box-shadow: 5px 7px 2px rgb(142, 141, 141);
 }
 
 .btn {
-  background-color: #fb0865;
-  width: 100px;
-  height: 20px;
-  position: relative;
-  top: 1rem;
-  left: 27%;
-  border: none;
-  border-radius: 5px;
-  cursor:-webkit-zoom-in;
-  font-size: 12px;
-  color: white;
-  padding: 15px 24px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  line-height: 1;
+    background-color: #fb0865;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    top: 1rem;
+    left: 27%;
+    border: none;
+    border-radius: 5px;
+    cursor: -webkit-zoom-in;
+    font-size: 12px;
+    color: white;
+    padding: 15px 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1;
 }
 
 .btn:hover {
-  background-color: rgb(74, 10, 86);
+    background-color: rgb(74, 10, 86);
 }
 
 
-.diffcolor{
+.diffcolor {
     color: #7b026d;
     font-weight: bolder;
     text-align: center;
     margin: 5px -35px;
 }
-.VII{/*I am not very creative while naming classes*/
-color: #4f4301;
-text-align: start;
-margin: 0;
+
+.VII {
+    /*I am not very creative while naming classes*/
+    color: #4f4301;
+    text-align: start;
+    margin: 0;
 }
+
 #footer {
+  background-color: #111111; /* Match the body background color */
+  padding-top: 20px; /* Add padding to create separation */
   text-align: center;
   font-style: italic;
-  background-color: #0b0b0b;
   color: antiquewhite;
-  margin: 50px 0px;
+  margin: -10px 0px;
   height: 300px;
 }
 
 .h1 {
-  color: rgb(239, 11, 11);
-  text-align: center; 
- 
+    color: rgb(239, 11, 11);
+    text-align: center;
+
 }
 
 .contactUs {
-  text-align: left;
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start; 
-  
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
 }
 
 #footer h1.h1imgs {
-  color: yellow;
-  text-align: left; /
+    color: yellow;
+    text-align: left;/
 }
 
 .img1 {
-  width: 30px;
-  height: 30px;
-  margin: 5px 0;
+    width: 30px;
+    height: 30px;
+    margin: 5px 0;
 }
-.contactItem{
-    margin-right: 0 0 0 3px; 
-    
+
+.contactItem {
+    margin-right: 0 0 0 3px;
+
 }
-.contactItem, .imgText{
+
+.contactItem,
+.imgText {
     display: flex;
     align-items: left;
-    margin-right: 10px; 
-    
+    margin-right: 10px;
+
 }
 
 .imgText {
-  color: yellow;
+    color: yellow;
 }
-.botón{
+
+.botón {
     background-color: #2d3a9b;
     color: bisque;
     width: 100px;
@@ -176,20 +189,19 @@ margin: 0;
     border-radius: 5px;
 }
 
-#my-form{
-  position: relative;
-  bottom: 10px;
-  margin: 1px 2px;
-  gap: 3px;
-  width: 100%;
+#my-form {
+        position: relative;
+    bottom: 0px;
+    margin: 1px 21px;
+    width: 100%;
 }
 
- .form-class-1, #myForm {
+.form-class-1,
+#myForm {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     color: #7b026d;
-    width: fit-content;
 }
 
 .form-row {
@@ -202,10 +214,12 @@ margin: 0;
 label {
     margin-right: 10px;
 }
-.h1form{
+
+.h1form {
     color: yellow;
 }
-.botón2{
+
+.botón2 {
     background-color: #dbdad7;
     color: rgb(249, 96, 65);
     width: 100px;
@@ -213,37 +227,38 @@ label {
     margin-left: 55px;
     border-radius: 5px;
     box-shadow: 3px 2px 3px red;
-    
+
 }
+
 .error {
-  background: orangered;
-  color: #fff;
-  padding: 5px;
-  margin: 5px;
+    background: orangered;
+    color: #fff;
+    padding: 5px;
+    margin: 5px;
 }
 
 #footer {
-  display: flex; 
-  justify-content: space-between; 
-  align-items: flex-start; 
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
 }
+
 #questAnswer {
- color: gold;
+    color: gold;
 
 }
 
 h2 {
-  margin: 0; 
+    margin: 15px;
 }
 
-.box {
-  background-color: #7b026d;
-  color: rgb(245, 240, 245);
-  height: 30px;
-  width: 200px;
-  font-size: 20px;
-  padding: 30px;
-  margin: 0; 
+.box {/*this box is not showing, I really don't know why*/
+    display: none;
+    background-color: #7b026d;
+    color: rgb(245, 240, 245);
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+    padding: 30px;
+    margin: 0;
 }
-
-

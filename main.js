@@ -1,3 +1,5 @@
+
+
 const sideBarEl = document.getElementById("sidebar");
 const articleEl = document.createElement("div");
 articleEl.classList.add("article");
@@ -12,22 +14,6 @@ const paraGra = document.createElement("p");
 paraGra.textContent =
   "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. consectetur, adipisicing elit. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. consectetur, adipisicing elit. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis...Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. consectetur, adipisicing elit. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. consectetur, adipisicing elit. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis accusantium voluptates impedit repudiandae. Maiores, totam similique eos facere nisi qui. equi, rerum voluptate rem a omnis cum ducimus officia eos blanditiis. ";
 articleEl.appendChild(paraGra);
-
-
-/*
-      const uL = document.createElement("ul");
-      uL.classList.add("unordered");
-      uL.style.display = "block";
-      articleEl.appendChild(uL);
-
-      const listItem1 = document.createElement("li");
-      listItem1.textContent = "problem";
-      uL.appendChild(listItem1);
-
-      const listItem2 = document.createElement("li");
-      listItem2.textContent = "solutions";
-      uL.appendChild(listItem2);
-      */
 
 articleEl.style.color = "#ffebcd";
 articleEl.style.background = "#2e2f2e";
@@ -128,8 +114,3 @@ function mOut(obj) {
         obj.innerHTML = "NO, IT'S JUST HALLOWEEN 🎃🎃🎃";
     }
 
-    // window.addEventListener("keydown", (event) => {
-    //     if (event.code === "KeyR") {
-    //         // 
-    //     }
-    // })
