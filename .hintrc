@@ -3,6 +3,19 @@
     "development"
   ],
   "hints": {
-    "no-inline-styles": "off"
-  }
+    "no-inline-styles": "off",
+    "axe/forms": [
+      "default",
+      {
+        "label": "off"
+      }
+    ]
+  },
+  "browserslist": [
+    "defaults",
+    "not ie 11",
+    "not and_ff <= 117",
+    "not firefox <= 117",
+    "not safari <= 17"
+  ]
 }

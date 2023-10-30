@@ -122,13 +122,14 @@ margin: 0;
 }
 #footer {
   text-align: center;
+  font-style: italic;
   background-color: #0b0b0b;
   color: antiquewhite;
   margin: 50px 0px;
 }
 
 #footer h1.h1Footer {
-  color: white;
+  color: rgb(239, 11, 11);
   text-align: center; 
 }
 
@@ -164,3 +165,58 @@ margin: 0;
 .imgText {
   color: yellow;
 }
+.botón{
+    background-color: #2d3a9b;
+    color: bisque;
+    width: 100px;
+    margin: 7px;
+    margin-left: 55px;
+    border-radius: 5px;
+}
+
+#my-form{
+  position: relative;
+  bottom: 180px;
+  left: 0;
+  width: 100%;
+}
+
+ .form-class-1, #myForm {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    color: #7b026d;
+    width: fit-content;
+}
+
+.form-row {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 10px;
+    align-items: center;
+}
+
+label {
+    margin-right: 10px;
+}
+.h1form{
+    color: yellow;
+}
+.botón2{
+    background-color: #dbdad7;
+    color: rgb(249, 96, 65);
+    width: 100px;
+    margin: 7px;
+    margin-left: 55px;
+    border-radius: 5px;
+    box-shadow: 3px 2px 3px red;
+    
+}
+.error {
+  background: orangered;
+  color: #fff;
+  padding: 5px;
+  margin: 5px;
+}
+
+

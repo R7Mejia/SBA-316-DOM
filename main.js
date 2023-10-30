@@ -96,9 +96,33 @@ const getAllStuff = function () {
 
 getAllStuff();
 
-//
-window.addEventListener("keydown", (event) => {
-  if (event.code === "KeyR") {
-    // 
-  }
-});
+// Listen for form submit
+const myForm = document.querySelector("#my-form");
+const nameInput = document.querySelector("#name");
+const emailInput = document.querySelector("#email");
+const msg = document.querySelector(".msg");
+
+myForm.addEventListener('submit', onSubmit);
+
+function onSubmit(e) {
+    e.preventDefault();
+  
+    if (nameInput.value === '1-10' || emailInput.value === '') {
+        // enter all fields;
+        msg.classList.add('error');
+        msg.innerHTML = 'Please enter everything as asked on the fields';
+
+        // Remove error after 3 seconds
+        setTimeout(() => msg.remove(), 3000);
+    } else {
+      //prompt("What are you doing, amig@?"); //this sets the requirement of the DOM event-based validation.
+        //confirm("Lemme guess, thou just needeth some 🤓");
+    }
+}
+    
+    //
+    window.addEventListener("keydown", (event) => {
+        if (event.code === "KeyR") {
+            // 
+        }
+    })
