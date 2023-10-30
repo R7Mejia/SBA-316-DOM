@@ -179,7 +179,8 @@ margin: 0;
 #my-form{
   position: relative;
   bottom: 10px;
-  left: 0;
+  margin: 1px 2px;
+  gap: 3px;
   width: 100%;
 }
 
